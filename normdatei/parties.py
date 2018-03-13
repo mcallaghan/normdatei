@@ -9,6 +9,7 @@ PARTIES_REGEX = {
     'linke': re.compile(' (die|der|den) linken?'),
     'fdp': re.compile(' fdp'),
     'gruene': re.compile(' bund ?nis\-?(ses)? ?90 die gru ?nen'),
+    'afd': re.compile(' afd'),
 }
 
 
