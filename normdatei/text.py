@@ -18,7 +18,7 @@ DE_HYPHEN = re.compile(r'([a-z])-([a-z])', re.U)
 
 
 def clean_text(text):
-    if not isinstance(text, unicode):
+    if not isinstance(text, str):
         try:
             text = text.decode('utf-8')
         except:
